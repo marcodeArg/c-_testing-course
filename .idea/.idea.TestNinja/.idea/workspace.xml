@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b613b956-d289-41f7-8ac7-d21d5a32b67e" name="Default" comment="" />
+    <list default="true" id="b613b956-d289-41f7-8ac7-d21d5a32b67e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/HtmlFormatterTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/MathTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/MathTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,6 +197,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -251,6 +259,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -311,6 +320,7 @@
       <workItem from="1508952072060" duration="74000" />
       <workItem from="1704723373844" duration="1020000" />
       <workItem from="1704724713256" duration="7133000" />
+      <workItem from="1704802420208" duration="5008000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1507240218760</created>
