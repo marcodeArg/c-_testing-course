@@ -14,6 +14,12 @@ namespace TestNinja.UnitTests
         {
             _stack = new Stack<string>();
         }
+        
+        [Test]
+        public void Count_EmptyStack_ReturnsZero()
+        {
+            Assert.That(_stack.Count, Is.EqualTo(0));
+        }
 
         [Test]
         public void Push_NullObject_ThrowArgumentNullException()
@@ -23,18 +29,75 @@ namespace TestNinja.UnitTests
         }
 
         [Test]
-        public void Push_ValidObject_ObjectAddedToList()
+        public void Push_ValidObject_ObjectAddedToStack()
         {
             _stack.Push("a");
             Assert.That(_stack.Count, Is.EqualTo(1));
         }
+
+        [Test]
+        public void Pop_StackIsEmpty_InvalidOperationException()
+        {
+            Assert.That(() => _stack.Pop(), Throws.InvalidOperationException);
+        }
         
         [Test]
-        public void Pop_ListIsEmpty_InvalidOperationException(){}
+        public void Pop_StackHaveMultipleElements_ReturnTheElementOnTop()
+        {
+            _stack.Push("a");
+            _stack.Push("b");
+            _stack.Push("c");
+            _stack.Push("d");
+            
+            var result = _stack.Pop();
+            
+            Assert.That(result, Is.EqualTo("d"));
+        }
         
-        // POP
-        //     Si la lista esta vacia, deberia de lanzar una excepsion 
-        //     Si la lista tiene al menos un elemento deberia de devolver el elemento eliminado(debe ser el ultimo)
+        [Test]
+        public void Pop_StackHaveMultipleElements_RemoveTheElementOnTop()
+        {
+            _stack.Push("a");
+            _stack.Push("b");
+            _stack.Push("c");
+            _stack.Push("d");
+            
+            _stack.Pop();
+            
+            Assert.That(_stack.Count, Is.EqualTo(3));
+        }
+
+        [Test]
+        public void Peek_StackIsEmpty_InvalidOperationException()
+        {
+            Assert.That(() => _stack.Peek(), Throws.InvalidOperationException);
+        }
+        
+        [Test]
+        public void Peek_StackHaveMultipleElements_ReturnTheElementOnTop()
+        {
+            _stack.Push("a");
+            _stack.Push("b");
+            _stack.Push("c");
+            _stack.Push("d");
+            
+            var result = _stack.Peek();
+            
+            Assert.That(result, Is.EqualTo("d"));
+        }
+        
+        [Test]
+        public void Peek_StackHaveMultipleElements_ShouldNotRemoveTheElementOnTop()
+        {
+            _stack.Push("a");
+            _stack.Push("b");
+            _stack.Push("c");
+            _stack.Push("d");
+            
+            var result = _stack.Peek();
+            
+            Assert.That(_stack.Count, Is.EqualTo(4));
+        }
         
     }
 }

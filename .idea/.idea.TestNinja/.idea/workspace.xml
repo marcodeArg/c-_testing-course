@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b613b956-d289-41f7-8ac7-d21d5a32b67e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/DemeritPointsCalculatorTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/StackTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/StackTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/StackTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,6 +322,7 @@
       <workItem from="1704892162655" duration="6922000" />
       <workItem from="1704990327760" duration="2989000" />
       <workItem from="1705077178257" duration="5999000" />
+      <workItem from="1705326478250" duration="2693000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1507240218760</created>
