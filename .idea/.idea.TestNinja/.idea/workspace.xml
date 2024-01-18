@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b613b956-d289-41f7-8ac7-d21d5a32b67e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/DownloadInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/EmployeeControllerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/InstallerHelperTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/EmployeeRespository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/FileDownloader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/VideoServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/VideoServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/DownloadInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/EmployeeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/InstallerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/InstallerHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/VideoFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/VideoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/VideoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/VideoService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,6 +203,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -332,6 +336,8 @@
       <workItem from="1705408122966" duration="8936000" />
       <workItem from="1705456152697" duration="984000" />
       <workItem from="1705498287499" duration="9872000" />
+      <workItem from="1705580729052" duration="76000" />
+      <workItem from="1705580823781" duration="11356000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1507240218760</created>
@@ -416,6 +422,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="." />
