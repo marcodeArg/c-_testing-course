@@ -5,24 +5,16 @@ namespace TestNinja.Mocking
     public class InstallerHelper
     {
         private string _setupDestinationFile;
+        private IDownloadInstaller _downloadInstaller;
+        
+        public InstallerHelper(IDownloadInstaller dw = null)
+        {
+            _downloadInstaller = dw ?? new DownloadInstaller();
+        }
 
         public bool DownloadInstaller(string customerName, string installerName)
         {
-            var client = new WebClient();
-            try
-            {
-                client.DownloadFile(
-                    string.Format("http://example.com/{0}/{1}",
-                        customerName,
-                        installerName),
-                    _setupDestinationFile);
-
-                return true;
-            }
-            catch (WebException)
-            {
-                return false; 
-            }
+            return _downloadInstaller.Download(customerName, installerName, _setupDestinationFile);
         }
     }
 }

@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace TestNinja.Mocking
 {
-    public class VideoFilter : IVideoFilter
+    public class VideoRepository : IVideoFilter
     {
-        public List<Video> GetVideos()  
+        public IEnumerable<Video> GetVideos()  
         {
             using (var context = new VideoContext())
             {
@@ -18,6 +18,6 @@ namespace TestNinja.Mocking
 
     public interface IVideoFilter
     {
-        List<Video> GetVideos();
+        IEnumerable<Video> GetVideos();
     }
 }

@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b613b956-d289-41f7-8ac7-d21d5a32b67e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/OrderServiceTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/VideoServiceTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/FileReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/VideoFilter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/DownloadInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/VideoServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/VideoServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/InstallerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/InstallerHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/VideoFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/VideoRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/VideoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/VideoService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" afterDir="false" />
     </list>
@@ -281,7 +279,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -333,6 +331,7 @@
       <workItem from="1705343628461" duration="2320000" />
       <workItem from="1705408122966" duration="8936000" />
       <workItem from="1705456152697" duration="984000" />
+      <workItem from="1705498287499" duration="9872000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1507240218760</created>
