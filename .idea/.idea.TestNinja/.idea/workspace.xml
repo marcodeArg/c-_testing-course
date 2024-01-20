@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b613b956-d289-41f7-8ac7-d21d5a32b67e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/EmployeeControllerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/InstallerHelperTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/EmployeeRespository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/FileDownloader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/BookingHelperTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/BookingRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/DownloadInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/EmployeeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/InstallerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/InstallerHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/BookingHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/BookingHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -338,6 +334,8 @@
       <workItem from="1705498287499" duration="9872000" />
       <workItem from="1705580729052" duration="76000" />
       <workItem from="1705580823781" duration="11356000" />
+      <workItem from="1705593069101" duration="607000" />
+      <workItem from="1705669227503" duration="10260000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1507240218760</created>
