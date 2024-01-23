@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b613b956-d289-41f7-8ac7-d21d5a32b67e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/BookingHelperTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/BookingRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/HousekeeperHelperTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/EmailSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/StatementGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/BookingHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/BookingHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/HousekeeperHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/HousekeeperHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -336,6 +337,8 @@
       <workItem from="1705580823781" duration="11356000" />
       <workItem from="1705593069101" duration="607000" />
       <workItem from="1705669227503" duration="10260000" />
+      <workItem from="1705879354459" duration="11429000" />
+      <workItem from="1705928710600" duration="6750000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1507240218760</created>
